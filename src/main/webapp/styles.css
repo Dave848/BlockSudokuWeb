@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+}
+
+.form-container {
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column;
+    float: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.index-input{
+    width: 40px;
+}
+
+.textfield {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.space-up{
+    margin: 15px auto;
+}
+
+.board{
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-right: 50px;
+}
+
+.piece{
+    width: 120px;
+    height: 120px;
+    margin: 15px 0;
+}
+
+.pieces-container{
+    width: 150px;
+    height: 450px;
+    float:left;
+}
+
+.board-tile{
+    width: 40px;
+    height: 40px;
+}
+
+.piece-tile{
+    width: 30px;
+    height: 30px;
+}
+
+.tile{
+    float: left;
+    margin: 5px;
+}
+
+.black{
+    background-color: black;
+}
+
+.grey{
+    background-color: lightgrey;
+}
+
+.game-container{
+    width: 700px;
+    height: 450px;
+    margin: 50px auto 0 auto;
+}
+
+.center-div{
+    text-align: center;
+}
+
+.game-id-form{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 8px 0px #111;
+    padding: 15px;
+    width: 20%
+}
+
+.game-id-form label{
+    display: inline;
+}
+
+.game-id-form div{
+    margin: 10px;
+    text-align: center;
+}
